@@ -1,9 +1,47 @@
 /* styles css*/
+* {
+    font-family: Garamond, serif;
+}
 
 div{
-    color: white;
-    background-color: red;
+    color: rgb(59, 57, 57);
+    border-color: aliceblue;
+    background-color: rgb(131, 238, 179);
     font-size: 32px;
     text-align: center;
     font-weight: bold;
+}
+
+.example {
+    text-align:left;
+    font-size: 26px;
+}
+p {
+    font-size: 22px;
+}
+
+ul {
+    font-size: 22px;
+    font-style: italic;
+}
+
+ol {
+    font-size: 22px;
+}
+
+h2{
+    color: rgb(59, 57, 57);
+    border-color: aliceblue;
+    background-color: rgb(187, 235, 208);
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
