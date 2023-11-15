@@ -3,7 +3,7 @@
     font-family: Garamond, serif;
 }
 
-h1{
+.title {
     color: rgb(59, 57, 57);
     border-color: aliceblue;
     background-color: rgb(131, 238, 179);
@@ -50,7 +50,7 @@ h2{
     
 }
 
-.cover {
+.panel {
     display:inline-block;
     
 }

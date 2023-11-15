@@ -4,24 +4,51 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
-        <link rel="stylesheet" href="styles.css"/>
+        <style>
+            /* styles css*/
+            * {
+                font-family: Garamond, serif;
+            }
+
+            .header {
+                font-size: 32px;
+                background-color: rgb(132, 230, 132);
+                text-align: center;
+                padding: 10px
+            }
+            .panel-group {
+                text-align: center;
+                background-color: blanchedalmond;
+                width: 70%;
+                margin:auto;
+
+                
+            }
+            .panel {
+                display:inline-block;
+            }
+
+            ul {
+                
+                text-align: left;
+
+            }
+
+
+        </style>
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <div class="main">
-        <img src="https://www.shutterstock.com/image-vector/chef-hat-spoon-fork-design-260nw-2258128515.jpg" class="cover">
-           
-            <div class="menu">
-            <p class="inner">This is a recipe collection for The Odin Project</p>
-            
-            <ul clasas="inner">
+        <div class="header"><h1>Odin Recipes</h1></div>
+        <div class="panel-group">
+        <img class="panel" src="https://www.shutterstock.com/image-vector/chef-hat-spoon-fork-design-260nw-2258128515.jpg">
+            <ul class="panel">
             <li><a href="recipes\lasagna.html">Lasagna</a></li>
             <li><a href="recipes\pozole.html">Pozole</a></li>
             <li><a href="recipes\pesto.html">Pesto</a></li>
             </ul>
-            </div>
         </div>
+        <p style="text-align:center">This is a recipe collection for The Odin Project</p>
         
         
     </body>
